@@ -1,3 +1,3 @@
-## Portfolio webpage
+## My Portfolio
 
-Short webpage with some of my projects and experiences.
+A portfolio displaying my experiences and some of the projects I've worked on.
