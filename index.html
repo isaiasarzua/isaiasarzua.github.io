@@ -1,174 +1,487 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
 <head>
-    <title>Joab Arzua - Web Developer &amp; Programmer</title>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet" type="text/css">
-    
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-n1.css">
+    <title>Isaias Arzua</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body class="homepage">
+<body id="top">
 
-    <div id="header-wrapper">
-        <section id="hero" class="container">
-            <header>
-                <h2>Joab Arzua<br>Web Developer &amp; Programmer</h2></header>
-            <p>Fueled by a passion for technology and pushing it to the limit.</p>
-        </section>
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
     </div>
 
-    <div class="wrapper">
-        <section class="container">
-            <header class="major">
-                <h2 class="test">Web Development</h2>
-                <span>I've used web technologies for local businesses, personal projects and previous employment.<br>Strongest skills: Node.js, D3.js</span></header>
-            <div class="row features">
-                <section class="4u feature">
-                    <div class="image-wrapper first">
-                        <a href="https://polleriasgoldenperu.github.io/" class="image full" target="_blank"><img src="images/pic03.jpg" alt=""></a>
-                    </div>
-                    <h3>Restaurant Website<br>HTML / Bootstrap</h3>
-                    <p>Made for local fine dining restaurant Pollerias Golden Peru</p>
-                </section>
-                <section class="4u feature">
-                    <div class="image-wrapper">
-                        <a href="https://investnewark.github.io/" class="image full" target="_blank"><img src="images/newarkPreview.png" alt=""></a>
-                    </div>
-                    <h3>investNewark<br>jQuery / Bootstrap / Gulp.js</h3>
-                    <p>Landing Page for investNewark, a project that will encourage investors to consider tech startups in Newark.</p>
-                </section>
-                <section class="4u feature">
-                    <div class="image-wrapper">
-                        <img src="images/sunburst.png" class="image full" alt="">
-                    </div>
-                    <h3>Custom Sunburst<br>D3.js / Node.js / React</h3>
-                    <p>D3.js Sunburst chart for analyzing incident patterns, server status, ticket queue and more.</p>
-                </section>
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Isaias Arzua</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
             </div>
-        </section>
-    </div>
 
-    <div class="wrapper">
-        <section class="container">
-            <header class="major">
-                <h2>Programming</h2>
-                <span>Video game projects I've worked on.<br>I also use Java and Python for non-gaming projects.<br>Strongest skills: C#, Java</span></header>
-            <div class="row features">
-                <section class="4u feature">
-                    <div class="image-wrapper first">
-                        <img src="images/turnCombat.png" alt="" class="image full">
-                    </div>
-                    <h3>Turn Based Combat System</h3>
-                    <p>Easy to use and highly flexible. Character stats system included. Automatically generates target buttons, loads player and enemies into battle.</p>
-                </section>
-                <section class="4u feature">
-                    <div class="image-wrapper">
-                        <img src="images/dancePreview.png" alt="" class="image full">
-                    </div>
-                    <h3>Mega10 Dance Xpress<br>Mania Revolution</h3>
-                    <p>Rhythm game based off the popular Dance Dance Revolution series, with characters from Persona series.</p>
-                </section>
-                <section class="4u feature">
-                    <div class="image-wrapper">
-                        <img src="images/bork.png" alt="" class="image full">
-                    </div>
-                    <h3>Rise of the Bork</h3>
-                    <p>Side-scrolling adventure game. Play as a dog whose owner has been kidnapped. Follow his scent, fight your way to the city to rescue him.
-                        <br>Art by Davon Joiner.</p>
-                </section>
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Work</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-    </div>
 
-    <div class="wrapper">
-        <section class="container">
-            <header class="major">
-                <h2>Professional Experience</h2>
-                <span>Tech related jobs I've held.</span></header>
-            <div class="row features">
-                <section class="6u feature">
-                    <div class="image-wrapper first">
-                        <img src="images/infrastructure-engineer.jpg" class="image full" alt="">
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">                        
+                            <h1>Isaias Arzua</h1>
+                            Designer // Engineer  <br>
+                            Raleigh, NC.
                     </div>
-                    <h3>Infrastructure Engineer<br>TD Ameritrade</h3>
-                    <p>Multiple administrative responsibilites with Oracle Database, Unix/Linux and Middleware Platforms. Developed server and app analysis tools using React, Node.js and D3.js to be used by DevOps team.</p>
-                </section>
-                <section class="6u feature">
-                    <div class="image-wrapper">
-                        <a href="https://forestwaternj.github.io/" class="image full" target="_blank"><img src="images/forestWater.png" alt=""></a>
+                    
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/about-photo.jpg" 
+                             srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x" alt="" class="about-info__pic" data-animate-el>
                     </div>
-                    <h3>Web Developer<br>Forest Water NJ</h3>
-                    <p>Designed and developed company website with company owner. Continued maintance of website's code. Established a database to keep track of inventory and clients.</p>
-                </section>
-                <!--<section class="4u feature">
-        <div class="image-wrapper"> <a href="#" class="image full"><img src="images/pic05.jpg" alt=""></a></div>
-        <h3>example<br>job</h3>
-        <p>description</p>
-      </section>-->
-            </div>
-        </section>
-    </div>
 
-    <div id="footer-wrapper">
-        <div id="footer" class="container">
-            <header class="major">
-                <h2>Contact</h2>
-                <span>I'm always interested in meeting new people and working on new things.</span>
-            </header>
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
 
-            <div class="row">
-                <section class="6u">
-                    <form method="post" action="https://formspree.io/joabarzua@yahoo.com">
-                        <div class="row half">
-                            <div class="6u">
-                                <input name="name" placeholder="Your name" type="text" class="text" maxlength="44" required>
-                            </div>
-                            <div class="6u">
-                                <input name="email" placeholder="Your email" type="email" class="text" maxlength="44" required>
-                            </div>
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About Me
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                My name is Isaias Arzua. <br> I bring interactive experiences to life as a game designer and engineer. I enjoy working from concept and design to development and release. My goal is to always be efficient, curious and creative. My passion is designing artistic and innovative ideas and crafting them with code. Outside of work, I enjoy reading, writing, hiking and making music.
+                            </p>
                         </div>
-                        <div class="row half">
-                            <div class="12u">
-                                <textarea name="message" placeholder="I'm all ears" maxlength="500" required></textarea>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                <div class="row about-expertise" data-animate-block>
+                    <div class="column lg-12">
+
+                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+
+                        <ul class="skills-list h1" data-animate-el>
+                            <li>UI & UX Design</li>
+                            <li>Gameplay Design</li>
+                            <li>Unity Development</li>
+                            <li>Audience Research</li>
+                            
+                        </ul>
+
+                    </div>
+                </div> <!-- end about-expertise -->
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Historical Conquest</h3>
+                                    <h5 class="timeline__meta">Game Designer & Developer</h5>
+                                    <p class="timeline__timeframe">March 2023 - Present</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Developing innovative, creative, and fun ideas for gameplay while driving forward the historic and educational vision. Designing, planning and implementing features and gameplay systems. Researching and designing UI/UX implementation. Researching target audience and incorporating findings into gameplay to produce results. Researching and addressing limitations of audience hardware.  </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row half">
-                            <div class="12u">
-                                <ul class="actions">
-                                    <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Plasma Games</h4>
+                                    <h5 class="timeline__meta">Unity Developer</h5>
+                                    <p class="timeline__timeframe">2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Planned and implemented functionality, identified bottlenecks, and ensured quality of the finished product. Transformed design specifications and art assets into functional game experiences. Created and maintained documentation of development processes. Collaborated with several teams to ensure success of product. Implemented and enhanced concept UI elements within Unity. </p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Relative Scale</h4>
+                                    <h5 class="timeline__meta">Junior Unity Developer</h5>
+                                    <p class="timeline__timeframe">2021</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Designed, built, and maintained efficient, reusable, and reliable code in Unity. Worked with internal and external development teams to merge created assets into game environment. Collaborated with fellow developers to ensure product success. Realized concept art and UI elements within Unity. Supported senior developer with daily tasks. Participated in weekly code reviews by sharing and receiving feedback and ideas.  </p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">New Jersey Institute of Technology</h4>
+                                    <h5 class="timeline__meta">B.A. Degree in Computer Science</h5>
+                                    <p class="timeline__timeframe">May 2016</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Completed coursework in compilers and operating systems, algorithms, systems architecture and software development.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Selected Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Some of my favorite projects I've worked on.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+                            
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/PICUwall.jpg" >
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Unity
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            PICU Diversion Wall
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/investNewark.jpg">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            UI
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            investNewark
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/forestwater.jpg">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            UI
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Forest Water
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/labsafety.jpg" >
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Unity
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Lab Safety
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-investnewark.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>investNewark</h5>
+                                <p>Landing Page for investNewark. A project meant to encourage finance and tech investors to consider Newark, NJ.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>UI</li>
+                                    <li>Web</li>
                                 </ul>
                             </div>
+                
+                            <a href="https://investnewark.github.io/" class="modal-popup__details">Project link</a>
                         </div>
-                    </form>
-                </section>
+                    </div> <!-- end modal -->
 
-                <section class="6u">
-                    <div class="row no-collapse-1">
-                        <ul class="divided icons 6u">
-                        </ul>
-                        <ul class="divided icons 6u">
-                            <li class="icon icon-linkedin"><a href="https://www.linkedin.com/in/joab-arzua-60201a127" target="_blank"><span class="extra">linkedin/</span>joabarzua</a></li>
-                        </ul>
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-forestwater.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Forest Water</h5>
+                                <p>Designed and developed company website with owner. Included photography of location and product. Established database to keep track of inventory and clients.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>UI</li>
+                                    <li>Web</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://forestwaternj.github.io/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-diversionwall.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>PICU Diversion Wall</h5>
+                                <p>The Diversion Wall is an interactive media experience that creates a diversion from the rigors of medical treatment and recovery by offering patients opportunities for discovery, joy, and creativity.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Unity</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://relativescale.com/maynard-childrens-hospital/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Turn Based Combat System</h5>
+                                <p>Easy to use and highly flexible. Includes a character stats system. Automatically generates target buttons depending on enemy location.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Web</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Rise of the Bork</h5>
+                                <p>Side-scrolling adventure game. Play as a dog whose owner has been kidnapped. Follow his scent, fight your way to the city to rescue him.
+Art by Davon Joiner.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Illustration</li>
+                                </ul>
+                            </div>
+                
+                            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/gallery/g-labsafety.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Lab Safety</h5>
+                                <p>Educational activity created for students to learn safety procedures during hands-on lab experiments. Built for WebGL in Unity 2020.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Unity</li>
+                                    <li>UI</li>
+                                </ul>
+                            </div>
+                
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+                
+            </section> <!-- end s-works -->
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            If you have a question or want to chat — I'd love to hear from you.
+                        </p>
                     </div>
-                </section>
-            </div>
-        </div>
+                </div> <!-- end contact-top -->
 
-        <div id="copyright" class="container">
-            <ul class="menu">
-                <li>Joab Arzua</li>
-                <li>joabarzua@yahoo.com</li>
-                <li>Thank you for visiting.</li>
-            </ul>
-        </div>
-    </div>
+                <div class="row contact-bottom">
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:joearzua@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>
